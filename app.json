@@ -1,0 +1,55 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/list/list",
+    "pages/custom/custom",
+    "pages/cart/cart",
+    "pages/center/center"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#F2302F",
+    "navigationBarTitleText": "不白之年",
+    "navigationBarTextStyle":"white",
+    "backgroundColor":"#ffffff",
+    "backgroundTextStyle":"dark",
+    "backgroundColorTop":"#02CD0B",
+    "backgroundColorBottom":"#D8BFD8",
+    "enablePullDownRefresh":true,
+    "onReachBottomDistance":20
+  },
+  "tabBar": {
+    "color": "#555557",
+    "selectedColor": "#F2302F",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "position": "bottom",
+    "list": [{
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/homen.png",
+        "selectedIconPath": "images/homes.png"
+      },{
+        "pagePath": "pages/list/list",
+        "text": "分类",
+        "iconPath": "images/categoryn.png",
+        "selectedIconPath": "images/categorys.png"
+      },{
+        "pagePath": "pages/custom/custom",
+        "text": "发现",
+        "iconPath": "images/discoveryn.png",
+        "selectedIconPath": "images/discoverys.png"
+      },{
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "images/cartn.png",
+        "selectedIconPath": "images/carts.png"
+      },{
+        "pagePath": "pages/center/center",
+        "text": "我的",
+        "iconPath": "images/myn.png",
+        "selectedIconPath": "images/mys.png"
+      }]
+  }
+}
+
